@@ -1,0 +1,27 @@
+{
+  "name": "learngraphql",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "nodemon": "nodemon app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.9.0",
+    "http-errors": "~1.6.3",
+    "mocha": "^10.7.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.4",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
